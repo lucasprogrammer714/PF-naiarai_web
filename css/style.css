@@ -1,0 +1,307 @@
+
+/*ESTILOS BODY*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background-image: linear-gradient(to right top, #f6faff, #f6f9fd, #f6f7fa, #f6f6f7, #f5f5f5);
+  font-family: "Yomogi", cursive;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+/*-----------------------------*/
+
+/*ESTILOS HEADER*/
+
+header{
+    background-image: linear-gradient(to left top, #f49e55, #f4a54d, #f2ad45, #eeb53d, #e9bd35);
+    display: flex;
+    align-items: center;
+    gap:350px
+}
+
+
+.nav-container ul{
+    display: flex;
+    gap: 2rem;
+}
+
+header nav ul li{
+    list-style-type: none;
+}
+
+a:hover{
+    background-color: #e9bd35;
+    border-radius:10px;
+}
+
+
+header nav ul li a{
+    text-decoration: none;
+    color:white;
+    font-family: "Cabin Sketch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    padding: 10px;
+}
+
+
+.naiarai-logo{
+    width: 7%;
+    height: 7%;
+    padding: 10px;
+    margin-left: 50px;
+}
+
+/*--------------------------------------------------------*/
+
+/*ESTILOS MAIN*/
+h1{
+    font-family: "Cabin Sketch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    display: inline-block;
+}
+
+/*h2{
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}*/
+
+
+.block-add p{
+font-size: large;
+font-style: italic;
+font-weight: bold;
+height: 20px;
+}
+
+
+
+.grid-container-home{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 0.1fr 1.5fr 0.5fr;
+
+
+.grid-item-1{
+    display: flex;
+    flex-direction: column; 
+    justify-items: end;
+    grid-column: span 3;
+    grid-row: 1;
+}
+
+.grid-item-1 h1 {
+    display: inline-block; 
+    text-align: center; 
+    margin-top: 10px;
+}
+
+.grid-item-1 p{
+    text-align: center; 
+}
+
+.grid-item-2{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0px;
+    grid-column: span 3;
+    grid-row: 2;
+}
+
+.grid-item-2 p{
+    margin-bottom: 20px;
+}
+
+
+.grid-item-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1/2;
+    grid-row: 3;
+}
+
+.grid-item-4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2/3;
+    grid-row: 3;
+}
+
+.grid-item-5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-column: 3/4;
+    grid-row: 3;  
+}
+
+.sierras-image{
+    height: 68%;
+    width: 68%;
+    border-radius: 20px;
+}
+
+
+ .add-info{
+    text-align: center; 
+    margin-bottom: 20px;
+ }
+
+.add-photos{
+    height: 70%;
+    width: 60%;
+    border-radius: 2rem;
+}
+
+}
+
+/*NAIARAI CONTAINER*/
+.naiarai-container{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+
+    .naraiai-item{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        gap:30px;
+        margin: 20px 0;
+    }
+    
+    .rental-name{
+        font-family: "Cabin Sketch", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+        
+}
+
+.rental-photos{
+    width: 100%;
+    max-width: 500px; 
+    height: auto; 
+}
+
+.rental-info{
+    background-color: #fafafa;
+    margin: 0;
+
+}
+
+
+.visita-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .visita-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;   
+        gap:30px;
+        margin: 20px 0;
+    }
+
+    
+}
+
+
+.grupo-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .grupo-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;   
+        gap:30px;
+        margin: 20px 0;
+    }
+
+    .grupo-photos{
+        width: 100%;
+        max-width: 400px; 
+        height: auto; 
+    }
+}
+
+.contacto-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+ 
+    .contacto-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;   
+        gap:30px;
+        margin: 20px 0;
+    }
+    
+}
+
+
+
+
+/*----------------------------------------------*/
+
+/*ESTILOS FOOTER*/
+footer{
+    background-image: linear-gradient(to left top, #f49e55, #f4a54d, #f2ad45, #eeb53d, #e9bd35);
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+
+.footer-content{
+    display: flex;
+    justify-content: center;
+    ul {
+        display: flex;
+        padding-left: 7px;
+        li{
+            padding: 10px;
+        }
+   }
+}
+
+.follow-message{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+.size-social{
+    height: 2rem;
+    width: 2rem;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+}
+
+/*--------------------------------------*/
