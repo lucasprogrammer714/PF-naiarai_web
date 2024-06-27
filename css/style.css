@@ -8,12 +8,18 @@
     box-sizing: border-box;
 }
 
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
 body{
   background-image: linear-gradient(to right top, #f6faff, #f6f9fd, #f6f7fa, #f6f6f7, #f5f5f5);
   font-family: "Yomogi", cursive;
   font-weight: 400;
   font-style: normal;
-  
+
 }
 /*-----------------------------*/
 
@@ -21,22 +27,27 @@ body{
 
 header{
     background-image: linear-gradient(to left top, #f49e55, #f4a54d, #f2ad45, #eeb53d, #e9bd35);
-    display: flex;
     align-items: center;
-    gap:350px
+    padding: 10px;
 }
 
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 .nav-container ul{
     display: flex;
     gap: 2rem;
+    margin-left: 20px
 }
 
 header nav ul li{
     list-style-type: none;
 }
 
-a:hover{
+.links-pages:hover{
     background-color: #e9bd35;
     border-radius:10px;
 }
@@ -57,7 +68,7 @@ header nav ul li a{
     width: 7%;
     height: 7%;
     padding: 10px;
-    margin-left: 50px;
+  
 }
 
 /*--------------------------------------------------------*/
@@ -88,7 +99,7 @@ height: 20px;
 
 
 
-.grid-container-home{
+/*.grid-container-home{
 display: grid;
 grid-template-columns: repeat(3, 1fr);
 grid-template-rows: 0.1fr 1.5fr 0.5fr;
@@ -154,14 +165,21 @@ grid-template-rows: 0.1fr 1.5fr 0.5fr;
     grid-row: 3;  
 }
 
+
+}
+
+
+
+
+}*/
+
 .sierras-image{
     height: 68%;
     width: 68%;
     border-radius: 20px;
 }
 
-
- .add-info{
+.add-info{
     text-align: center; 
     margin-bottom: 20px;
  }
@@ -170,8 +188,6 @@ grid-template-rows: 0.1fr 1.5fr 0.5fr;
     height: 70%;
     width: 60%;
     border-radius: 2rem;
-}
-
 }
 
 /*NAIARAI CONTAINER*/
@@ -250,8 +266,10 @@ grid-template-rows: 0.1fr 1.5fr 0.5fr;
 
 .contacto-container{
     display: flex;
+    justify-content: center;
     align-items: center;
     flex-direction: column;
+ 
  
     .contacto-item{
         display: flex;
@@ -271,6 +289,11 @@ grid-template-rows: 0.1fr 1.5fr 0.5fr;
 /*ESTILOS FOOTER*/
 footer{
     background-image: linear-gradient(to left top, #f49e55, #f4a54d, #f2ad45, #eeb53d, #e9bd35);
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
 }
 
 footer ul {
