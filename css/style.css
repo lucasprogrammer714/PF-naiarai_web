@@ -26,29 +26,24 @@ header{
     padding: 10px;
 }
 
-.nav-container{
+.nav-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.nav-container ul{
-    display: flex;
-    gap: 2rem;
-    margin-left: 20px
-}
 
-header nav ul li{
-    list-style-type: none;
-}
-
-.links-pages:hover{
+.pages-link:hover{
     background-color: #e9bd35;
     border-radius:10px;
+    color: white;
 }
 
 
-header nav ul li a{
+.pages-link{
+    display: flex;
+    gap: 2rem;
+    margin-left: 20px;
     text-decoration: none;
     color:white;
     font-family: "Cabin Sketch", sans-serif;
@@ -58,13 +53,12 @@ header nav ul li a{
     padding: 10px;
 }
 
-
-.naiarai-logo{
-    width: 7%;
-    height: 7%;
+.naiarai-logo {
+    width: 7vw; 
+    height: auto; 
     padding: 10px;
-  
 }
+
 
 /*--------------------------------------------------------*/
 
@@ -259,3 +253,27 @@ footer ul {
 }
 
 /*--------------------------------------*/
+
+@media (max-width: 1200px) {
+    .naiarai-logo {
+        width: 10vw;
+    }
+}
+
+@media (max-width: 992px) {
+    .naiarai-logo {
+        width: 12vw;
+    }
+}
+
+@media (max-width: 768px) {
+    .naiarai-logo {
+        width: 15vw;
+    }
+}
+
+@media (max-width: 576px) {
+    .naiarai-logo {
+        width: 20vw;
+    }
+}
