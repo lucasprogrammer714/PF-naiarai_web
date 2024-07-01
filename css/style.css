@@ -121,6 +121,7 @@ h1{
             flex-direction: column;
             text-align: center;
         }
+
     }
     
     .rental-name{
@@ -128,6 +129,8 @@ h1{
         font-weight: 500;
         font-style: normal;
     }
+
+    
         
 }
 
@@ -216,8 +219,8 @@ footer{
     width: 100%;
     text-align: center;
     padding: 10px 0;
-    position: relative;
     bottom: 0;
+    z-index: 1000;
 }
 
 footer ul {
@@ -258,11 +261,22 @@ footer ul {
     .naiarai-logo {
         width: 10vw;
     }
+
+    .naraiai-item{
+        display: flex;
+        flex-direction: column;
+        width:85%
+    }
 }
 
 @media (max-width: 992px) {
     .naiarai-logo {
         width: 12vw;
+    }
+
+    .naraiai-item{
+        display: flex;
+        flex-direction: column;
     }
 }
 
@@ -270,10 +284,19 @@ footer ul {
     .naiarai-logo {
         width: 15vw;
     }
+    .naraiai-item{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 576px) {
     .naiarai-logo {
         width: 20vw;
     }
+    .naraiai-item{
+        display: flex;
+        flex-direction: column;
+    }
 }
+
