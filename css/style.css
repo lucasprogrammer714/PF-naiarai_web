@@ -69,6 +69,7 @@ h1{
     font-style: normal;
     font-size: 50px;
     display: inline-block;
+    margin-top: 10px;
 }
 
 
@@ -209,7 +210,18 @@ h1{
 }
 
 
+.button-style{
+    margin-bottom: 10px;
+    background-color: #e9bd35;
+    color: white;
 
+}
+
+:hover.button-style{
+    background-color: #f2ad45;
+    color: white;
+
+}
 
 /*----------------------------------------------*/
 
@@ -219,8 +231,17 @@ footer{
     width: 100%;
     text-align: center;
     padding: 10px 0;
-    bottom: 0;
-    z-index: 1000;
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1;
 }
 
 footer ul {
@@ -231,6 +252,7 @@ footer ul {
 .footer-content{
     display: flex;
     justify-content: center;
+  
     ul {
         display: flex;
         padding-left: 7px;
@@ -254,6 +276,7 @@ footer ul {
     display: flex;
     align-items: center;
 }
+
 
 /*--------------------------------------*/
 

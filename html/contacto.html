@@ -21,72 +21,78 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg nav-container">
-            <img class="naiarai-logo" src="../img/naiarai-logo-modified.png" alt="naiarai-logo">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-             </button>
-             <div class="collapse navbar-collapse" id="navbarNav">
-                <div class="navbar-nav">
-                    <a class="nav-item nav-link pages-link" href="../index.html">Home</a>
-                    <a class="nav-item nav-link pages-link" href="visita.html">Visita</a>
-                    <a class="nav-item nav-link pages-link" href="naiarai.html">Naiarai</a>
-                    <a class="nav-item nav-link pages-link" href="grupo-naiarai.html">Grupo Naiarai</a>
-                    <a class="nav-item nav-link pages-link" href="contacto.html">Contacto</a>
+    <div class="wrapper">
+        <header>
+            <nav class="navbar navbar-expand-lg nav-container">
+                <img class="naiarai-logo" src="../img/naiarai-logo-modified.png" alt="naiarai-logo">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link pages-link" href="../index.html">Home</a>
+                        <a class="nav-item nav-link pages-link" href="visita.html">Visita</a>
+                        <a class="nav-item nav-link pages-link" href="naiarai.html">Naiarai</a>
+                        <a class="nav-item nav-link pages-link" href="grupo-naiarai.html">Grupo Naiarai</a>
+                        <a class="nav-item nav-link pages-link" href="contacto.html">Contacto</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <div class="contacto-container">
+                <h1>Contacto</h1>
+                <form action="">
+                    <div class="contacto-item">
+                        <label for="">Nombre y Apellido: </label>
+                        <input type="text">
+                    </div>
+                    <div class="contacto-item">
+                        <label for="">Correo electronico: </label>
+                        <input type="email" name="" id="">
+                    </div>
+                    <div class="contacto-item">
+                        <label for="">Celular: </label>
+                        <input type="number">
+                    </div>
+                    <div class="contacto-item">
+                        <label for="">Dejanos un mensaje: </label>
+                        <textarea name="" id=""></textarea>
+                    </div>
+                    <div>
+                        <button type="submit" class="btn button-style">Enviar</button>
+                    </div>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-content">
+                <div class="social">
+                    <p class="follow-message">Seguinos en: </p>
+                    <ul>
+                        <li>
+                            <a href="https://wa.me/c/5491128686083" target="_blank"><img class="size-social"
+                                    src="../img/whatsapp.png" alt="icono-whatsapp"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/naiaraicordoba/?igsh=MXd0Z3ZpZWc5dmw1dg%3D%3D"
+                                target="_blank"><img class="size-social" src="../img/instagram-logo.png"
+                                    alt="icono-instagram"></a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/damian.segovia.5030?mibextid=ZbWKwL" target="_blank"><img
+                                    class="size-social" src="../img/facebook.png" alt="icono-facebook"></a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </nav>
-    </header>
-    <main>
-        <div class="contacto-container">
-            <h1>Contacto</h1>
-            <form action="">
-                <div class="contacto-item">
-                    <label for="">Nombre y Apellido: </label>
-                    <input type="text">
-                </div>
-                <div class="contacto-item">
-                    <label for="">Correo electronico: </label>
-                    <input type="email" name="" id="">
-                </div>
-                <div class="contacto-item">
-                    <label for="">Celular: </label>
-                    <input type="number">
-                </div>
-                <div class="contacto-item">
-                    <label for="">Dejanos un mensaje: </label>
-                    <textarea name="" id=""></textarea>
-                </div>
-            </form>
-        </div>
+        </footer>
+    </div>
 
-
-
-    </main>
-    <footer>
-        <div class="footer-content">
-            <div class="social">
-                <p class="follow-message">Seguinos en: </p>
-                <ul>
-                    <li>
-                        <a href="https://wa.me/c/5491128686083" target="_blank"><img class="size-social"
-                                src="../img/whatsapp.png" alt="icono-whatsapp"></a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/naiaraicordoba/?igsh=MXd0Z3ZpZWc5dmw1dg%3D%3D"
-                            target="_blank"><img class="size-social" src="../img/instagram-logo.png"
-                                alt="icono-instagram"></a>
-                    </li>
-                    <li>
-                        <a href="https://www.facebook.com/damian.segovia.5030?mibextid=ZbWKwL" target="_blank"><img
-                                class="size-social" src="../img/facebook.png" alt="icono-facebook"></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 
 </body>
 
