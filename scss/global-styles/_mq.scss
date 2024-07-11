@@ -1,0 +1,45 @@
+@media (max-width: 1200px) {
+    .naiarai-logo {
+        width: 10vw;
+    }
+
+    .naraiai-item{
+        display: flex;
+        flex-direction: column;
+        width:85%
+    }
+
+    .visita-item{
+        display: flex;
+        flex-direction: column;
+        width:85%
+    }
+
+    .grupo-item{
+        display: flex;
+        flex-direction: column;
+        width:85%
+    }
+}
+
+@media (max-width: 992px) {
+    .naiarai-logo {
+        width: 12vw;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .naiarai-logo {
+        width: 15vw;
+    }
+ 
+}
+
+@media (max-width: 576px) {
+    .naiarai-logo {
+        width: 20vw;
+    }
+ 
+}

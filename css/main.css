@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(to right top, #f6faff, #f6f9fd, #f6f7fa, #f6f6f7, #f5f5f5);
+  font-family: "Yomogi", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-family: "Cabin Sketch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+header {
+  background-image: linear-gradient(to left top, #f49e55, #f4a54d, #f2ad45, #eeb53d, #e9bd35);
+  align-items: center;
+  padding: 10px;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav-container .naiarai-logo {
+  width: 7vw;
+  height: auto;
+  padding: 10px;
+}
+.nav-container .pages-link {
+  display: flex;
+  gap: 2rem;
+  margin-left: 20px;
+  text-decoration: none;
+  color: white;
+  font-family: "Cabin Sketch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  padding: 10px;
+}
+.nav-container .pages-link:hover {
+  background-color: #e9bd35;
+  border-radius: 10px;
+  color: white;
+}
+
+footer {
+  background-image: linear-gradient(to left top, #f49e55, #f4a54d, #f2ad45, #eeb53d, #e9bd35);
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+}
+.footer-content ul {
+  display: flex;
+  padding-left: 7px;
+}
+.footer-content ul li {
+  padding: 10px;
+}
+
+.follow-message {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.size-social {
+  height: 2rem;
+  width: 2rem;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 1200px) {
+  .naiarai-logo {
+    width: 10vw;
+  }
+  .naraiai-item {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+  }
+  .visita-item {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+  }
+  .grupo-item {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+  }
+}
+@media (max-width: 992px) {
+  .naiarai-logo {
+    width: 12vw;
+  }
+}
+@media (max-width: 768px) {
+  .naiarai-logo {
+    width: 15vw;
+  }
+}
+@media (max-width: 576px) {
+  .naiarai-logo {
+    width: 20vw;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,26 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+  background-image: linear-gradient(to right top, #f6faff, #f6f9fd, #f6f7fa, #f6f6f7, #f5f5f5);
+  font-family: "Yomogi", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5rem;
+
+}
+
+
+h1{
+  font-family: "Cabin Sketch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+  display: inline-block;
+  margin-top: 10px;
+}
