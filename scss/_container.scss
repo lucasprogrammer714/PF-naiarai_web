@@ -1,0 +1,39 @@
+.visita-container{
+    @include container-styles;
+
+
+    .visita-item{
+        @include item-styles;
+
+        
+    }
+   
+}
+
+
+.grupo-container{
+   @include container-styles;
+
+    .grupo-item{
+        @include item-styles;
+
+    }
+
+    .grupo-photos{
+        width: 100%;
+        max-width: 400px; 
+        height: auto; 
+    }
+}
+
+.contacto-container{
+    @include container-styles;
+
+ 
+ 
+    .contacto-item{
+        @include item-styles;
+
+    }
+    
+}

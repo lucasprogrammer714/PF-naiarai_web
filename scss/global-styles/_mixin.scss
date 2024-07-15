@@ -1,0 +1,13 @@
+@mixin container-styles {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+@mixin item-styles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin: 20px 0;
+}
