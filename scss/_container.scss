@@ -1,3 +1,32 @@
+.naiarai-container{
+    @include container-styles;
+
+ 
+     .naraiai-item{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         gap:30px;
+         margin: 20px 0;
+ 
+         .info-item{
+             display: flex;
+             flex-direction: column;
+             text-align: center;
+           }  
+        }
+
+            
+    .rental-name{
+        font-family: "Cabin Sketch", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+    }
+             
+ }
+
+
+
 .visita-container{
     @include container-styles;
 
@@ -36,4 +65,43 @@
 
     }
     
+}
+
+.rental-photos{
+    width: 100%;
+    max-width: 500px; 
+    height: auto; 
+    border-radius: 10px;
+    &:hover{
+        -ms-transform: scale(1.1); 
+        -webkit-transform: scale(1.1); 
+        transform: scale(1.1); 
+    }
+}
+
+.rental-info{
+    background-color: #fafafa;
+    margin: 0;
+    width: 100%;
+    max-width: 500px; 
+    padding: 15px 100px 10px 100px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    box-shadow: 0 12px 17px rgba(243, 164, 60, 0.966);
+    &:hover{
+        -ms-transform: scale(1.1); 
+        -webkit-transform: scale(1.1); 
+        transform: scale(1.1); 
+    }
+
+}
+
+
+:hover.title-animation{
+    -ms-transform: scale(1.1); 
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1); 
+    font-weight: bold;
 }
