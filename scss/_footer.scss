@@ -40,8 +40,13 @@ footer ul {
     padding-bottom: 20px;
 }
 .size-social{
-    height: 2rem;
-    width: 2rem;
+    font-size: 1.3em; 
+    color: black;
+    height: auto;
+    width: auto; 
+    &:hover{
+        
+    }
 }
 
 .social{
