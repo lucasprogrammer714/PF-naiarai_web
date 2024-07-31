@@ -1,7 +1,8 @@
 @media (max-width: 1200px) {
     .naiarai-logo {
-        width: 10vw;
+        width: 10%;
     }
+}
 
     .naraiai-item{
         display: flex;
@@ -20,26 +21,17 @@
         flex-direction: column;
         width:85%
     }
-}
 
-@media (max-width: 992px) {
-    .naiarai-logo {
-        width: 12vw;
+    @media (max-width: 1024px) {
+        /* Tablet */
+        .naiarai-logo {
+            width: 15%;
+        }
     }
-
-
-}
-
-@media (max-width: 768px) {
-    .naiarai-logo {
-        width: 15vw;
+    
+    @media (max-width: 599px) {
+        /* Mobile */
+        .naiarai-logo {
+            width: 20%;
+        }
     }
- 
-}
-
-@media (max-width: 576px) {
-    .naiarai-logo {
-        width: 20vw;
-    }
- 
-}
