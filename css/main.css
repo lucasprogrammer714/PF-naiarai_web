@@ -27,15 +27,16 @@ header {
   padding: 10px;
 }
 
+.naiarai-logo {
+  width: 7vw;
+  height: auto;
+  padding: 10px;
+}
+
 .nav-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-.nav-container .naiarai-logo {
-  width: 7vw;
-  height: auto;
-  padding: 10px;
 }
 .nav-container .pages-link {
   display: flex;
@@ -246,6 +247,41 @@ footer {
   padding: 10px 0;
   margin: 0;
 }
+footer .footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .footer-content .social {
+  display: flex;
+  align-items: center;
+}
+footer .footer-content .social .follow-message {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+footer .footer-content .social ul {
+  display: flex;
+  padding-left: 7px;
+  list-style-type: none;
+}
+footer .footer-content .social ul li {
+  padding: 10px;
+}
+footer .footer-content .social ul li a {
+  display: inline-block;
+  color: black;
+  transition: color 0.3s, transform 0.3s;
+}
+footer .footer-content .social ul li a:hover {
+  transform: scale(1.1);
+}
+footer .footer-content .social ul li a .hvr-icon {
+  font-size: 1.3em;
+  height: auto;
+  width: auto;
+}
 
 .wrapper {
   display: flex;
@@ -255,40 +291,6 @@ footer {
 
 main {
   flex: 1;
-}
-
-footer ul {
-  list-style-type: none;
-}
-
-.footer-content {
-  display: flex;
-  justify-content: center;
-}
-.footer-content ul {
-  display: flex;
-  padding-left: 7px;
-}
-.footer-content ul li {
-  padding: 10px;
-}
-
-.follow-message {
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-bottom: 20px;
-}
-
-.size-social {
-  font-size: 1.3em;
-  color: black;
-  height: auto;
-  width: auto;
-}
-
-.social {
-  display: flex;
-  align-items: center;
 }
 
 @media (max-width: 1200px) {

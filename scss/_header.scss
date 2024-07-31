@@ -4,16 +4,17 @@ header{
     padding: 10px;
 }
 
+.naiarai-logo {
+    width: 7vw; 
+    height: auto; 
+    padding: 10px;
+}
+
 .nav-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
-    .naiarai-logo {
-        width: 7vw; 
-        height: auto; 
-        padding: 10px;
-    }
+
 
     .pages-link{
         display: flex;
@@ -31,8 +32,7 @@ header{
             border-radius:10px;
             color: white;
         }
-    }
-    
+    } 
 }
 
 
